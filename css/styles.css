@@ -1,0 +1,155 @@
+/*
+99f7f4 ciano
+d4fcff ciano claro
+fcffa3 amarelo calro
+fcec60 amarelo
+fcd960 amarelo forte
+
+cdb4db lilas
+ffc8dd rosa-claro
+ffafcc rosa
+dbe0fe azul claro
+a2d2ff azul
+*/
+.wrapper{
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.top{
+    background-image: linear-gradient(#fcd960,#fcffa3);
+    position:relative;
+    width: 100%;
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+    z-index: 1;
+}
+
+.logo{
+    background-image: linear-gradient(#fcd960,#fcffa3);
+    position: relative;
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.side{
+    background-color: #fcffa3;
+    position: relative;
+    width: 10%;
+    height: 85%;
+}
+
+.content{
+    background-image: linear-gradient(#d4fcff,#ffffff);
+    /*background-color: #d4fcff;*/
+    position: absolute;
+    width: 90%;
+    height: 80%;
+    right: 0;
+    top: 15%;
+    display: flex;
+    flex-direction: row;
+}
+
+.bottom{
+    background-image: linear-gradient(#fcffa3 20%,#fcd960);
+    width: 100%;
+    height: 5%;
+    position: absolute;
+    bottom: 0;
+}
+
+.Text_logo{
+    color: #ffffff;
+    font-size: 3.5rem;
+    position: relative;
+    text-align: center;
+    font-family: "Sofia";
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-shadow: 2px 3px black;
+}
+
+a{
+    font-family: "Sofia";
+    color: #ffffff;
+    display: block;
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: center;
+    padding-block: 20%;
+    text-shadow: -1px -1px black,-1px 1px black, 1px -1px black, 1px 1px black;
+    text-decoration: none;
+    margin-left:1px;
+    margin-right: 1px;
+    position: relative;
+}
+
+a:hover{
+    color: #dbe0fe;
+    font-size: 26px
+    
+}
+
+.inicio{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: 2%;
+    border: hidden;
+    font-size: 150%;
+}
+
+.imagem_logo{
+    margin-top:  10%;
+    width: 80%;
+    height: 90%;
+}
+
+.imagem_logo:active{
+    rotate: 3turn;
+    transition: rotate 5s;
+}
+
+.col{
+    position: relative;
+    width: 20%;
+    height: 95%;
+    display: block;
+}
+
+.row{
+    width: 100%;
+    height: 50%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.img_dado{
+    position: relative;
+    width: 50%;
+    
+}
+
+.nome_dado{
+    text-align: center;
+}
+
+.img_horizontal{
+    position: relative;
+    width: 80%;
+}
